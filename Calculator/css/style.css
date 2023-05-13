@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(0, 0, 0);
+  }
+  form {
+    width: 500px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+  }
+
+input {
+     background-color: rgb(58, 53, 53);
+     margin-bottom: 15px;
+     color: white;
+     padding: 5px 65px; 
+    }   
+    input::placeholder{
+        text-align: center;
+    }
+    select {
+      margin-bottom: 15px;
+        background-color: rgb(58, 53, 53);
+        appearance: none;
+        color: white;
+        padding: 5px 143px; 
+        text-align: center;
+
+    }
+    button {
+        background-color: rgb(58, 53, 53);   
+        padding: 5px 55px;    
+        color: white;    
+        }
+
+     .warning {
+      color: red;
+      text-align: center;
+
+     }
+
+     .result{
+     color:white;
+     text-align: center;
+     font-size: 25px;
+     }
